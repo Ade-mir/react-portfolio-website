@@ -5,7 +5,7 @@ import { BsYoutube } from "react-icons/bs";
 
 const HeaderSocials = () => {
   return (
-    <div className="header_socials">
+    <div className="header__socials">
       <a href="https://www.linkedin.com/in/ademiralijagic/" target="_blank">
         <BsLinkedin />
       </a>
