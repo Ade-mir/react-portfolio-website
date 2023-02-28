@@ -6,13 +6,13 @@ import { BsYoutube } from "react-icons/bs";
 const HeaderSocials = () => {
   return (
     <div className="header__socials">
-      <a href="https://www.linkedin.com/in/ademiralijagic/" target="_blank">
+      <a href="https://www.linkedin.com/in/ademiralijagic/">
         <BsLinkedin />
       </a>
-      <a href="https://github.com/Ade-mir" target="_blank">
+      <a href="https://github.com/Ade-mir">
         <FaGithub />
       </a>
-      <a href="https://www.youtube.com/@howtobecomeadeveloper" target="_blank">
+      <a href="https://www.youtube.com/@howtobecomeadeveloper">
         <BsYoutube />
       </a>
     </div>

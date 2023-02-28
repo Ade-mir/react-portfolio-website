@@ -44,7 +44,7 @@ header {
   position: absolute;
   left: 50%;
   transform: translate(-50%);
-  margin-top: 2rem;
+  margin-top: 3rem;
   border-radius: 13rem 13rem 0 0;
   padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
