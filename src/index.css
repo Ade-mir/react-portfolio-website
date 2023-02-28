@@ -63,7 +63,8 @@ h1 {
 }
 
 section {
-  margin-top: 8rem;
+  margin-top: 6rem;
+  padding-top: 2rem;
 }
 
 section > h2,

@@ -6,21 +6,7 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: "Crypto Currency Dashboard & Financial Visualization",
-    github: "https://github.com",
-    demo: "https://github.com",
-  },
-  {
-    id: 2,
-    image: IMG1,
-    title: "Crypto Currency Dashboard & Financial Visualization",
-    github: "https://github.com",
-    demo: "https://github.com",
-  },
-  {
-    id: 3,
-    image: IMG1,
-    title: "Crypto Currency Dashboard & Financial Visualization",
+    title: "MERN Stack Social Media Platform",
     github: "https://github.com",
     demo: "https://github.com",
   },
