@@ -39,13 +39,13 @@ header {
 /* ADEMIR */
 .ademir {
   background: linear-gradient(var(--color-primary), transparent);
-  width: 25rem;
+  width: 22rem;
   height: 30rem;
   position: absolute;
   left: 50%;
   transform: translate(-50%);
-  margin-top: 3rem;
-  border-radius: 13rem 13rem 0 0;
+  margin-top: 2rem;
+  border-radius: 12rem 12rem 0 0;
   padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
@@ -69,6 +69,7 @@ header {
 /* MEDIA QUERIES (SMALL DEVICES) */
 @media screen and (max-width: 600px) {
   header {
+    padding-top: 2rem;
     height: 100vh;
   }
   .header__socials,
