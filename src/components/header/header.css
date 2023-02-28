@@ -39,13 +39,13 @@ header {
 /* ADEMIR */
 .ademir {
   background: linear-gradient(var(--color-primary), transparent);
-  width: 22rem;
+  width: 25rem;
   height: 30rem;
   position: absolute;
   left: 50%;
   transform: translate(-50%);
-  margin-top: 4rem;
-  border-radius: 12rem 12rem 0 0;
+  margin-top: 2rem;
+  border-radius: 13rem 13rem 0 0;
   padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
@@ -60,11 +60,11 @@ header {
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   header {
     height: 68vh;
   }
-}
+} */
 
 /* MEDIA QUERIES (SMALL DEVICES) */
 @media screen and (max-width: 600px) {

@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ademir from "../../assets/ademir.png";
+import profile_picture from "../../assets/profile3.png";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -13,7 +13,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ademir} alt="About Ademir image" />
+            <img src={profile_picture} alt="About Ademir image" />
           </div>
         </div>
         <div className="about__content">
