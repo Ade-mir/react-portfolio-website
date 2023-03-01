@@ -7,8 +7,10 @@ const data = [
     id: 1,
     image: IMG1,
     title: "MERN Stack Social Media Platform",
-    github: "https://github.com/Ade-mir/Brights-Lite",
-    demo: "https://www.canva.com/design/DAFapZZx0GI/205p6bLMxmlp8Z4OjkvcMw/view?utm_content=DAFapZZx0GI&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu",
+    github: "https://github.com/Ade-mir/MERN-social-media-platform",
+    demo: "https://peaceful-cranachan-56056a.netlify.app/",
+    brief:
+      "https://www.canva.com/design/DAFapZZx0GI/205p6bLMxmlp8Z4OjkvcMw/view?utm_content=DAFapZZx0GI&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu",
   },
 ];
 
@@ -18,7 +20,7 @@ const Portfolio = () => {
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
       <div className="container portfolio__container">
-        {data.map(({ id, image, title, github, demo }) => {
+        {data.map(({ id, image, title, github, demo, brief }) => {
           return (
             <article key={id} className="portfolio__item">
               <div className="portfolio__item-image">
@@ -29,6 +31,11 @@ const Portfolio = () => {
                 <a href={github} className="btn">
                   Github
                 </a>
+                <a href={brief} className="btn">
+                  Project Brief
+                </a>
+              </div>
+              <div className="portfolio__item-cta">
                 <a href={demo} className="btn btn-primary">
                   Live Demo
                 </a>
