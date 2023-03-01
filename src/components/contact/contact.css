@@ -38,6 +38,14 @@
 
 /* FORM */
 
+.hidden {
+  display: none;
+}
+
+#Contact__sent-message {
+  text-align: center;
+}
+
 form {
   display: flex;
   flex-direction: column;
