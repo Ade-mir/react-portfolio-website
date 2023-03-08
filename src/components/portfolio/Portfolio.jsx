@@ -1,6 +1,7 @@
 import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/brights-lite.png";
+import IMG2 from "../../assets/blog.png";
 
 const data = [
   {
@@ -11,6 +12,14 @@ const data = [
     demo: "https://peaceful-cranachan-56056a.netlify.app/",
     brief:
       "https://www.canva.com/design/DAFapZZx0GI/205p6bLMxmlp8Z4OjkvcMw/view?utm_content=DAFapZZx0GI&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu",
+  },
+  {
+    id: 2,
+    image: IMG2,
+    title: "NextJS | TailwindCSS | GraphQL Blog",
+    github: "https://github.com/Ade-mir/nextjs-blog",
+    demo: "https://musical-puffpuff-ff26f2.netlify.app/",
+    brief: "https://github.com/Ade-mir/nextjs-blog/blob/main/README.md",
   },
 ];
 
