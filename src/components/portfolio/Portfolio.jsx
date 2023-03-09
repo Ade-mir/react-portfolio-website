@@ -2,6 +2,7 @@ import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/brights-lite.png";
 import IMG2 from "../../assets/blog.png";
+import IMG3 from "../../assets/calculator.png";
 
 const data = [
   {
@@ -20,6 +21,15 @@ const data = [
     github: "https://github.com/Ade-mir/nextjs-blog",
     demo: "https://musical-puffpuff-ff26f2.netlify.app/",
     brief: "https://github.com/Ade-mir/nextjs-blog/blob/main/README.md",
+  },
+  {
+    id: 3,
+    image: IMG3,
+    title: "JavaScript | HTML | CSS Calculator",
+    github: "https://github.com/Ade-mir/javascript-calculator",
+    demo: "https://fabulous-otter-35c137.netlify.app/",
+    brief:
+      "https://github.com/Ade-mir/javascript-calculator/blob/main/README.md",
   },
 ];
 
