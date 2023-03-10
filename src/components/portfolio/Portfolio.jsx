@@ -3,6 +3,7 @@ import "./portfolio.css";
 import IMG1 from "../../assets/brights-lite.png";
 import IMG2 from "../../assets/blog.png";
 import IMG3 from "../../assets/calculator.png";
+import IMG4 from "../../assets/brochure.png";
 
 const data = [
   {
@@ -30,6 +31,14 @@ const data = [
     demo: "https://fabulous-otter-35c137.netlify.app/",
     brief:
       "https://github.com/Ade-mir/javascript-calculator/blob/main/README.md",
+  },
+  {
+    id: 4,
+    image: IMG4,
+    title: "React Brochure Site",
+    github: "https://github.com/Ade-mir/brochure-site",
+    demo: "https://deluxe-gumption-ef08f4.netlify.app/",
+    brief: "https://github.com/Ade-mir/brochure-site/blob/main/README.md",
   },
 ];
 
