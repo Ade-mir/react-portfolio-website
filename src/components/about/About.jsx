@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import profile_picture from "../../assets/profile3.png";
+import profile_picture from "../../assets/profile2 (2).jpeg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -13,7 +13,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={profile_picture} alt="About Ademir image" />
+            <img src={profile_picture} alt="About Prashant image" />
           </div>
         </div>
         <div className="about__content">
@@ -22,15 +22,14 @@ const About = () => {
               <FaAward className="about__icon" />
               <h5>Experience</h5>
               <small>
-                6 Months + <br /> Developer Experience
+                2 Months + <br /> Data Analytics
               </small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Education</h5>
               <small>
-                B.Sc. Mechanical Engineering, M.Sc. Innovation &
-                Entrepreneurship
+                BTech in Data Science , Major Data Science
               </small>
             </article>
             <article className="about__card">
@@ -44,23 +43,23 @@ const About = () => {
             </article>
           </div>
           <p>
-            I'm a problem solver with a background in Engineering, Product
-            Design, & Entrepreneurship. Alongside my studies, I started Streets
-            of Oslo AS, a company which sold backpacks through social media.
-            Later I worked as a Consultant in TietoEvry within Product
-            Development and Pre-Sales of RPA technology.
+            I'm a problem solver with a background in Engineering, Data 
+            Analytics,Data Engineer & Data Science. Passionate data analytics professional 
+            with a strong foundation in statistics and programming. Experienced in deriving insights from 
+            complex datasets using Power Bi. Detail-oriented and adept at transforming raw data into actionable strategies. 
+            Eager to contribute expertise in Data Analytics to drive impactful projects
           </p>
           <p>
-            In recent years, I've worked in the Coaching Industry with Sales
-            Automation, Website, & Advertisement Management. I thrive in a role
-            where I can use my broad knowledge to break down complex problems
-            and where the tasks require interaction between Design &
-            Functionality.
+          My journey in the field of data analytics began with a strong academic background in 
+          Btech in Data Science. Since then, I have honed my skills through hands-on experience in 
+          different projects where I had the opportunity to apply my analytical 
+          prowess to real-world challenges.
           </p>
           <p>
-            After a career focused on the business side of IT, I've immersed
-            myself in the technical side, and become a fullstack developer
-            through Academic Work's 12-week intensive training in JavaScript.
+          As I continue to expand my skill set and stay current with the latest trends in data analytics, 
+          I am committed to contributing my expertise to projects that make a meaningful impact. 
+          If you're seeking a passionate and detail-oriented data analytics professional, I would welcome 
+          the opportunity to connect.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

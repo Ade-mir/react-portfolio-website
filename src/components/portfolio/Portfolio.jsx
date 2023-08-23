@@ -1,62 +1,62 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/brights-lite.png";
-import IMG2 from "../../assets/blog.png";
-import IMG3 from "../../assets/calculator.png";
-import IMG4 from "../../assets/brochure.png";
-import IMG5 from "../../assets/Portfolio3.png";
-import IMG6 from "../../assets/Portfolio4.png";
+import IMG1 from "../../assets/ipl anaylsis.png";
+import IMG2 from "../../assets/real estate.png";
+import IMG3 from "../../assets/home task.jpeg";
+import IMG4 from "../../assets/Anomlies detection.png";
+import IMG5 from "../../assets/hr.png";
+import IMG6 from "../../assets/Sales Analysis.jpeg";
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: "MERN Stack Social Media Platform",
-    github: "https://github.com/Ade-mir/MERN-social-media-platform",
-    demo: "https://peaceful-cranachan-56056a.netlify.app/",
+    title: "IPL Data Analysis | Power Bi",
+    github: "https://github.com/Prashant7067/ipl_analysis",
+    demo: "https://github.com/Prashant7067/ipl_analysis/blob/main/ipl%20analysis.png",
     brief:
-      "https://www.canva.com/design/DAFapZZx0GI/205p6bLMxmlp8Z4OjkvcMw/view?utm_content=DAFapZZx0GI&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu",
+      "https://github.com/Prashant7067/ipl_analysis/blob/main/README.md",
   },
   {
     id: 2,
     image: IMG2,
-    title: "NextJS | TailwindCSS | GraphQL Blog",
-    github: "https://github.com/Ade-mir/nextjs-blog",
-    demo: "https://musical-puffpuff-ff26f2.netlify.app/",
-    brief: "https://github.com/Ade-mir/nextjs-blog/blob/main/README.md",
+    title: "Dragon Real Estate | Python",
+    github: "https://github.com/Prashant7067/Dragon-Real-Estate",
+    demo: "https://github.com/Prashant7067/Dragon-Real-Estate/blob/main/Dragon%20Real%20Estate/Output%20from%20different%20models",
+    brief: "https://github.com/Prashant7067/Dragon-Real-Estate/blob/main/README.md",
   },
   {
     id: 3,
     image: IMG3,
-    title: "JavaScript | HTML | CSS Calculator",
-    github: "https://github.com/Ade-mir/javascript-calculator",
-    demo: "https://fabulous-otter-35c137.netlify.app/",
+    title: "Home Task Analysis | Power Bi",
+    github: "https://github.com/Prashant7067/Home-Task",
+    demo: "https://github.com/Prashant7067/Home-Task/blob/main/video1087559079.mp4",
     brief:
-      "https://github.com/Ade-mir/javascript-calculator/blob/main/README.md",
+      "https://github.com/Prashant7067/Home-Task/blob/main/Assignment.docx",
   },
   {
     id: 4,
     image: IMG4,
-    title: "React Brochure Site",
-    github: "https://github.com/Ade-mir/brochure-site",
-    demo: "https://deluxe-gumption-ef08f4.netlify.app/",
-    brief: "https://github.com/Ade-mir/brochure-site/blob/main/README.md",
+    title: "Anomalies Detection in Time Series Data | Research",
+    github: "https://github.com/Prashant7067/Research_Anomlies_Detection",
+    demo: "https://www.canva.com/design/DAFkRCr813Y/afOtVFbEvTq92oZX0uA15Q/edit",
+    brief: "https://github.com/Prashant7067/Research_Anomlies_Detection",
   },
   {
     id: 5,
     image: IMG5,
-    title: "JavaScript | HTML | CSS Portfolio",
-    github: "https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2",
-    demo: "https://thriving-dragon-a3fcd9.netlify.app/",
-    brief: "https://youtu.be/ldwlOzRvYOU",
+    title: "HR Analysis | Power BI",
+    github: "https://github.com/Prashant7067/data_analytics_project",
+    demo: "https://github.com/Prashant7067/data_analytics_project/blob/main/hr%20analysis.png",
+    brief: "https://github.com/Prashant7067/data_analytics_project",
   },
   {
     id: 6,
     image: IMG6,
-    title: "JavaScript | HTML | CSS Animation Head",
-    github: "https://github.com/Ade-mir/animated-head-portfolio",
-    demo: "https://animated-head-portfolio.netlify.app/",
-    brief: "https://youtu.be/pcFF_IIpMbc",
+    title: "Sales Analysis | Python",
+    github: "https://github.com/Prashant7067/Sales_Analysis",
+    demo: "https://github.com/Prashant7067/Sales_Analysis",
+    brief: "https://github.com/Prashant7067/Sales_Analysis/tree/main/SalesAnalysis/Output",
   },
 ];
 

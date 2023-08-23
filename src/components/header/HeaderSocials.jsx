@@ -1,19 +1,16 @@
 import React from "react";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
-import { BsYoutube } from "react-icons/bs";
+
 
 const HeaderSocials = () => {
   return (
     <div className="header__socials">
-      <a href="https://www.linkedin.com/in/ademiralijagic/">
+      <a href="https://www.linkedin.com/in/prashant-pandey-818938216/">
         <BsLinkedin />
       </a>
-      <a href="https://github.com/Ade-mir">
+      <a href="https://github.com/Prashant7067">
         <FaGithub />
-      </a>
-      <a href="https://www.youtube.com/@howtobecomeadeveloper">
-        <BsYoutube />
       </a>
     </div>
   );
