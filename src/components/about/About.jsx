@@ -22,7 +22,7 @@ const About = () => {
               <FaAward className="about__icon" />
               <h5>Experience</h5>
               <small>
-                6 Months + <br /> Developer Experience
+                1,5 years <br /> Developer Experience
               </small>
             </article>
             <article className="about__card">
@@ -37,31 +37,44 @@ const About = () => {
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
               <small>
-                3+ Completed
+                40+ Completed
                 <br />
                 and Counting
               </small>
             </article>
           </div>
           <p>
-            I'm a problem solver with a background in Engineering, Product
-            Design, & Entrepreneurship. Alongside my studies, I started Streets
-            of Oslo AS, a company which sold backpacks through social media.
-            Later I worked as a Consultant in TietoEvry within Product
+            I'm a frontend developer currently working with the GUI of FEED, a
+            large scale Product Information Management system using Angular,
+            NodeJS, TypeScript, HTML, LESS, Git, IntelliJ, Jira & Material UI.
+            My daily responsibilities center around creating and maintaining
+            user interfaces that comunicating and exchanging data with API's as
+            well as creating and designing an effective user experience.
+          </p>
+          <p>
+            When I'm not coding at my job, I run a coding YouTube channel with
+            9K subscribers and counting, called How To Become A Developer, which
+            has also been shared by freeCodeCamp.org. This is the best place to
+            see my code and reasoning. Check it out
+            <a href="https://www.youtube.com/@howtobecomeadeveloper"> HERE</a>.
+          </p>
+          <p>
+            As a problem solver at heart I have a background in Engineering,
+            Product Design, & Entrepreneurship. Alongside my studies, I started
+            Streets of Oslo AS, a company based in StartUpLab and MESH and
+            funded by Innovation Norway which sold backpacks through social
+            media. Later I worked as a Consultant in TietoEvry within Product
             Development and Pre-Sales of RPA technology.
           </p>
           <p>
-            In recent years, I've worked in the Coaching Industry with Sales
-            Automation, Website, & Advertisement Management. I thrive in a role
-            where I can use my broad knowledge to break down complex problems
-            and where the tasks require interaction between Design &
-            Functionality.
+            In 2022, after a career focused on the business side of IT, I
+            immersed myself in the technical side, and become a frontend
+            developer through Academic Work's 12-week intensive training in
+            JavaScript. I then worked as a JavaScript Consultant for Academic
+            Work before continuing my career as a Frontend Developer for
+            Integration Systems AS.
           </p>
-          <p>
-            After a career focused on the business side of IT, I've immersed
-            myself in the technical side, and become a fullstack developer
-            through Academic Work's 12-week intensive training in JavaScript.
-          </p>
+          <p></p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
           </a>
