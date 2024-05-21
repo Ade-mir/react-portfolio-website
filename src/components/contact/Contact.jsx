@@ -29,12 +29,6 @@ const Contact = () => {
         <div className="contact__options">
           <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
-            <h4>Email</h4>
-            <h5>ademiralijagic@gmail.com</h5>
-            <a href="mailto:ademiralijagic@gmail.com">Send a message</a>
-          </article>
-          <article className="contact__option">
-            <MdOutlineEmail className="contact__option-icon" />
             <h4>LinkedIn</h4>
             <h5>Ademir Alijagic</h5>
             <a href="https://www.linkedin.com/in/ademiralijagic/">
@@ -42,7 +36,6 @@ const Contact = () => {
             </a>
           </article>
         </div>
-        {/* END OF CONTACT OPTIONS */}
         {emailIsSent ? (
           <h2 id="Contact__sent-message">
             Your Message was successfully sent!

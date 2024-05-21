@@ -8,7 +8,7 @@ import { VscFolderLibrary } from "react-icons/vsc";
 const About = () => {
   return (
     <section id="about">
-      <h5>Get To Know</h5>
+      <h5>Get to learn</h5>
       <h2>About Me</h2>
       <div className="container about__container">
         <div className="about__me">
@@ -22,14 +22,19 @@ const About = () => {
               <FaAward className="about__icon" />
               <h5>Experience</h5>
               <small>
-                1,5 years <br /> Developer Experience
+                2+ Years Dev XP
+              </small> <br />
+              <small>
+                14,000+ Subscribers
               </small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Education</h5>
               <small>
-                B.Sc. Mechanical Engineering, M.Sc. Innovation &
+                B.Sc. Mechanical Engineering
+                <br />
+                M.Sc. Innovation &
                 Entrepreneurship
               </small>
             </article>
@@ -45,26 +50,17 @@ const About = () => {
           </div>
           <p>
             I'm a frontend developer currently working with the GUI of FEED, a
-            large scale Product Information Management system using Angular,
-            NodeJS, TypeScript, HTML, LESS, Git, IntelliJ, Jira & Material UI.
-            My daily responsibilities center around creating and maintaining
-            user interfaces that comunicating and exchanging data with API's as
+            large scale Product Information Management system. My primary tech stack is Angular 17, Material Design, TypeScript, Node, and LESS / SASS for styling. Git, Jira and IntelliJ is used for team collaboration and deployment.
+            My day-to-day consists of a daily stand-up and biweekly sprints. My core responsibility centers on creating and maintaining components for new features that interact with our large databases as
             well as creating and designing an effective user experience.
           </p>
           <p>
-            When I'm not coding at my job, I run a coding YouTube channel with
-            9K subscribers and counting, called How To Become A Developer, which
-            has also been shared by freeCodeCamp.org. This is the best place to
-            see my code and reasoning. Check it out
-            <a href="https://www.youtube.com/@howtobecomeadeveloper"> HERE</a>.
+            When I'm not coding at my job, I teach coding on my YouTube channel with
+            14,000+ subscribers, called <a href="https://www.youtube.com/@howtobecomeadeveloper">How To Become A Developer</a>, which has been featured by freeCodeCamp.org. I teach everything from HTML, CSS, JavaScript, to libraries like React, and CSS frameworks like Tailwind CSS.
           </p>
-          <p>
+          {/* <p>
             As a problem solver at heart I have a background in Engineering,
-            Product Design, & Entrepreneurship. Alongside my studies, I started
-            Streets of Oslo AS, a company based in StartUpLab and MESH and
-            funded by Innovation Norway which sold backpacks through social
-            media. Later I worked as a Consultant in TietoEvry within Product
-            Development and Pre-Sales of RPA technology.
+            Product Design, & Entrepreneurship. I previously also aquired funding by Innovation Norway and ran a startup called Streets of Oslo. In a past life I also worked as a Consultant in TietoEvry within Product Development and Pre-Sales of RPA technology.
           </p>
           <p>
             In 2022, after a career focused on the business side of IT, I
@@ -73,7 +69,7 @@ const About = () => {
             JavaScript. I then worked as a JavaScript Consultant for Academic
             Work before continuing my career as a Frontend Developer for
             Integration Systems AS.
-          </p>
+          </p> */}
           <p></p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
